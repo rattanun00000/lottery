@@ -1,0 +1,183 @@
+.prize {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+  }
+  .titleInfo {
+    font-size: 24px;
+    text-align: center;
+  }
+  button {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: max-content;
+    background-image: radial-gradient(
+      100% 100% at 100% 0,
+      #5adaff 0,
+      #5468ff 100%
+    );
+    color: white;
+  }
+  .prizeRandom {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      display: flex;
+      align-self: center;
+    }
+  }
+
+  .prizeName {
+    background-color: #03c0fa;
+    border: solid 0.25px;
+  }
+
+  .prizeNumber {
+    background-color: #ecf4fb;
+    border: solid 0.25px;
+  }
+
+  th {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    width: 300px;
+    height: max-content;
+  }
+}
+
+.prizeTable {
+  display: flex;
+  border: solid 1px;
+  width: 100%;
+  max-width: 720px;
+  font-size: 24px;
+  margin-top: 10px;
+  align-self: center;
+  margin-bottom: 20px;
+
+  .prizeTableL {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    text-align: center;
+
+    .prizeTableL3 {
+      display: flex;
+
+      :first-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+      :last-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+    }
+  }
+
+  .prizeTableR {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+
+    .prizeTableR2 {
+      display: flex;
+      :first-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+      :last-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+    }
+    .prizeTableR3 {
+      display: flex;
+
+      :first-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+      :last-child {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+  border: solid 0.5px;
+  border-radius: 5px;
+
+  .inputTitle {
+    background-color: #0088ff;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .inputLine {
+    display: flex;
+    justify-content: center;
+
+    input {
+      padding: 15px;
+      width: 100%;
+      max-width: 450px;
+      border-radius: 10px;
+    }
+  }
+
+  .inputInfo {
+    display: flex;
+    background-color: #fce22a;
+    //color: white;
+    font-weight: 900;
+    padding: 10px;
+    width: 100%;
+    max-width: 600px;
+    align-self: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .buttonCheck {
+    display: flex;
+    justify-content: center;
+
+    button {
+      display: flex;
+      margin-bottom: 30px;
+      justify-content: center;
+      width: 180px;
+      margin-top: 20px;
+    }
+  }
+}
